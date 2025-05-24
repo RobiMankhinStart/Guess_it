@@ -10,11 +10,6 @@ img {
   vertical-align: middle;
 }
 
-/* From Uiverse.io by SelfMadeSystem */
-/*
-More comprehensive version at shenanigans.shoghisimon.ca/collection/css-rain-bg/
- */
-
 body {
   padding: 10px;
   width: 100%;
@@ -96,40 +91,65 @@ body {
   width: 1000px;
   margin: 0 auto;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 input {
-  width: 240px;
-  height: 41px;
-  padding: 6px;
+  width: 280px;
+  height: 50px;
+  padding: 8px;
   border-radius: 10px;
   border: none;
   outline: none;
-  background-color: rgba(172, 212, 212, 0.726);
+  background-color: rgba(172, 212, 212, 0.836);
   color: black;
   font-weight: 600;
   font-size: 18px;
 }
 /*...... player one section ....... */
-.Player_one_input_div {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  /* background: rgba(173, 216, 230, 0.158); */
-}
-/* input {
-  width: 240px;
-  height: 41px;
+.error {
+  font-size: 30px;
+  background-color: rgba(245, 222, 179, 0.788);
+  display: none;
+  color: red;
+  width: 100%;
+  text-align: center;
   padding: 6px;
   border-radius: 10px;
-  border: none;
-  outline: none;
-} */
-.player_Initial_gif {
-  width: 480px;
+}
+.player_No {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+  font-size: 30px;
+  color: rgb(250, 250, 232);
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+.Player_one_input_div {
+  background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3Z6N2RjNHVxZ3g1MXFvczJzamxoNG9pZG5qOXBqcmZobml3N2VrNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ko7twHhomhk8E/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 530px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  /* background: rgba(173, 216, 230, 0.158); */
+}
+.taking_input_div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.playerOne_Initial_gif {
+  width: 680px;
+}
+.playerOne_Initial_gif img {
+  border-radius: 20px;
 }
 .Player_one_submit_button {
   font-size: 1.2rem;
@@ -164,13 +184,79 @@ input {
 .player_one_win_div {
   display: none;
 }
+.player_one_win_div {
+  display: none;
+  background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGFrOWVkcDRmMmcxY3VwMWVneWdrcmZlenB0ZjRndWFrb2NyY3o3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jZjWL6noTCyoXWmo00/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  height: 500px;
+  gap: 20px;
+  justify-content: center;
+}
+.player_one_win_div h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.player_one_win_div button {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 4px 8px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.player_one_win_div button:hover {
+  transform: scale(110%);
+}
 /*......................................
 .............. player two section ....... */
 .Player_two_input_div {
+  background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx0amgyeDFwNzhmYmpzcTVvOGN0a2tpdndmNWpnemhvMnBoMXBwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgEYXCNqPZnqMuY/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 570px;
+  padding-top: 20px;
   display: none;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+.errorTwo {
+  font-size: 30px;
+  background-color: rgba(245, 222, 179, 0.788);
+  display: none;
+  color: red;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  border-radius: 10px;
+}
+.taking_input_div_Two {
+  display: flex;
+
   align-items: center;
   gap: 10px;
+}
+.count_h3 {
+  background-color: rgba(255, 255, 255, 0.87);
+  padding: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.playerTwo_Initial_gif {
+  width: 600px;
+}
+.playerTwo_Initial_gif img {
+  border-radius: 20px;
 }
 .Player_two_submit_button {
   display: flex;
@@ -211,4 +297,31 @@ input {
 }
 .player_two_win_div {
   display: none;
+  background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZtbzJ4bjNjNGVkcnc3bDFrbnlrMGM5ZzV2czB2eTV3aHB1eGd3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3rUbeDiLFMtAOIBErf/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  height: 500px;
+  gap: 20px;
+  justify-content: center;
+}
+.player_two_win_div h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.player_two_win_div button {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  padding: 4px 8px;
+  height: fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border: 1px solid gray;
+}
+.player_two_win_div button:hover {
+  transform: scale(110%);
 }

@@ -9,6 +9,9 @@
   <body>
     <div class="container">
       <div class="Player_one_input_div">
+        <h2 class="player_No">Player One</h2>
+
+        <h2 class="error"></h2>
         <div class="taking_input_div">
           <input
             class="Player_one_input"
@@ -17,46 +20,28 @@
           />
           <button class="Player_one_submit_button">Submit</button>
         </div>
-        <div class="player_Initial_gif">
-          <img
-            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG9kanZneHBqeHFvemc0czM5NmoxY2JqOGs2ajAyMHBtdXd0OXByNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q5zNcbk8ftkrGUauaD/giphy.gif"
-            alt="start_gif"
-          />
-        </div>
       </div>
       <div class="Player_two_input_div">
-        <div class="taking_input_div">
+        <h2 class="player_No">Player two</h2>
+        <h2 class="errorTwo"></h2>
+
+        <div class="taking_input_div_Two">
           <input
             class="Player_two_input"
             type="number"
             placeholder="Enter a number......"
           />
-          <button class="Player_two_submit_button">Submit</button>
+          <h3 class="count_h3"><span class="count">0</span> / 5</h3>
         </div>
-        <div class="player_Initial_gif">
-          <img
-            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx0amgyeDFwNzhmYmpzcTVvOGN0a2tpdndmNWpnemhvMnBoMXBwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgEYXCNqPZnqMuY/giphy.gif"
-            alt="start_gif"
-          />
-        </div>
+        <button class="Player_two_submit_button">Guess The Number</button>
       </div>
       <div class="player_one_win_div">
         <h2>Player One Won</h2>
-        <div class="player_one_win_gif">
-          <img
-            src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGFrOWVkcDRmMmcxY3VwMWVneWdrcmZlenB0ZjRndWFrb2NyY3o3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jZjWL6noTCyoXWmo00/giphy.gif"
-            alt="player_one_win"
-          />
-        </div>
-        <div class="player_two_win_div">
-          <h2>Player One Won</h2>
-          <div class="player_two_win_gif">
-            <img
-              src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZtbzJ4bjNjNGVkcnc3bDFrbnlrMGM5ZzV2czB2eTV3aHB1eGd3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3rUbeDiLFMtAOIBErf/giphy.gif"
-              alt="player_two_win"
-            />
-          </div>
-        </div>
+        <button class="Play_again_one">Play Again</button>
+      </div>
+      <div class="player_two_win_div">
+        <h2>Player Two Won</h2>
+        <button class="Play_again_two">Play Again</button>
       </div>
     </div>
     <script src="./js/script.js"></script>
