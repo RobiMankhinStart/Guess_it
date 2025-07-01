@@ -1,7 +1,7 @@
 # Guess It! 🎮  
 *A minimalist number guessing game built with vanilla JavaScript, HTML, and CSS.*
 
-![Game Screenshot](./screenshot_1.png)(./Screenshot_2.png) ![Player 1 Wins](./Screenshot_4.png)   ![Player 2 Wins](./Screenshot_3.png)
+![Player_one giving number](./screenshot_1.png) ![Player_two_Guessing](./screenshot_2.png) ![Player 1 Wins](./screenshot_4.png)   ![Player 2 Wins](./screenshot_3.png)
 
 ## 🎯 **How It Works**
 1. **Player 1** enters a secret number (1-10)  
